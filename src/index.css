@@ -1,4 +1,5 @@
 body {
+  text-align: center;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -10,4 +11,53 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.Header{
+  background-color: black;
+  top: 0;
+  color: white;
+}
+
+.Footer{
+  background-color: black;
+  color: aliceblue;
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+}
+
+.Input{
+  position: absolute;
+  top: 43%;
+  padding: 10px;
+  left: 38%;
+}
+
+.Input input{
+  border-color: black;
+  border: 2 px;
+  border-radius: 18px;
+  background-color: rgb(227, 224, 224);
+}
+
+.Input button{
+  border-color: black;
+  border: 2 px;
+  border-radius: 9px;
+}
+
+.Display{
+  top: 50%;
+}
+
+.Display p{
+  color: chocolate;
+  font-style: italic;
+}
+
+.Display p span{
+  font-weight: bold;
+  color: blue;
+  font-style: normal;
 }
